@@ -1,16 +1,45 @@
-section {
+/**width**/
+.full-width {
+	margin: 20px auto;
+	overflow: auto;
 	width: 800px;
-	margin: 100px auto;
 }
-section h1,
-section p {
-	text-align: center;
+
+.half-width {
+	float: right;
+	width: 400px;
+}
+
+
+div h1,
+div p {
 	color: #454545;
+	text-align: center;
 }
-section h1 {
-	font: 32px 'Open Sans';
-	font-weight: bold;
+div h1 {
+	font: 32px 'Permanent Marker', cursive;
+	padding-top: 150px;
 }
-section p {
+div p {
+	color: red;
 	font: 16px 'Open Sans';
+	line-height: 5px;
+}
+
+body {
+	background-color: yellow;
+}
+
+section {
+	background-color: white;
+}
+
+#img {
+	box-sizing: border-box;
+	padding: 40px 30px;
+}
+
+#text {
+	box-sizing: border-box;
+	padding: 100px 30px;
 }
